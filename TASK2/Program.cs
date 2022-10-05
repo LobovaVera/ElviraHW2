@@ -30,9 +30,9 @@ int numberInt;
     ourNumber = -ourNumber;
 }
     int b = ourNumber.ToString().Length;
-    if (b==0||b==1)
+    if (b==0||b ==1|| b==2)
     {
-        Console.WriteLine("Нет второй цифры :( ");
+        Console.WriteLine("Нет третьей цифры :( ");
         return;
     }
     
