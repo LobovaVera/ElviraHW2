@@ -22,7 +22,7 @@ else
 
 // Var 2 - check incoming data for string 
 
-
+Console.Clear();
 Console.WriteLine("Введите трехзначное целое число");
 var number = Console.ReadLine();
 
@@ -47,7 +47,7 @@ if (ourNumber<0)
 
 }
 int b = ourNumber.ToString().Length;
-Console.WriteLine($"length = {b}");
+
 
 if (b != 3)
 {
