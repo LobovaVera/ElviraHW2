@@ -31,6 +31,7 @@ int numberInt;
     if ( badIncome)
     {
         Console.WriteLine("Молодец, это число!");
+   
     }
     else
     {
@@ -38,8 +39,8 @@ int numberInt;
         return;
 
     }
- int ourNumber = Convert.ToInt32(number);   
-
+ // int ourNumber = Convert.ToInt32(number);   
+    int ourNumber = numberInt;
 
 if (ourNumber<0)
 {
